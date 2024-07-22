@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  footer
+  {
+    background-color: rgb(156, 18, 190);
+    border-radius: 5px;
+}
+  header {
+    background-color: #004cf1;
+    border-radius: 5px;
+  }
+  
+  main {
+    /* background-color: #12EC28; */
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 10px;
+  
+  
+  }
+  .left,.center,.right{
+    background-color: rgb(51, 36, 17);
+    flex: 1;
+    border-radius: 5px;
+  }
+  .center{
+    flex: 2;
+  }@media (max-width: 600px) {
+    .group{
+        flex-direction: column;
+        height: 600px;
+        flex: 1;
+        display: flex;
+    }
+}
